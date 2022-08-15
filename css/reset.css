@@ -123,6 +123,13 @@ table {
   border-spacing: 0;
 }
 
+
+/* 공통으로 적용될 것을 여기에다가 작성.정리해보기 */
 input:focus {
   outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

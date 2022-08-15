@@ -1,0 +1,21 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+
+/* 미디어쿼리 개념정리 
++ 다른 개념사용법 정리(가로모드 등)*/
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
